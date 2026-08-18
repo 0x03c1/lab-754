@@ -1,0 +1,29 @@
+# Executaveis gerados pelo Makefile
+dissect
+patriot
+monstros
+
+# Arquivos objeto e artefatos de compilacao
+*.o
+*.a
+*.so
+*.d
+
+# Diretorios de build
+build/
+bin/
+out/
+
+# Arquivos gerados pelo depurador
+*.dSYM/
+
+# Sistema operacional e editor
+.DS_Store
+.vscode/
+.idea/
+
+# Executaveis do Windows
+dissect.exe
+patriot.exe
+monstros.exe
+*.exe
